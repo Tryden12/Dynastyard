@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #323A4B;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #323A4B;
+  font-family: 'Play', sans-serif;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.nav-links a {
+  color: #73EB40; 
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-size: 14px;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+/*#73EB40 for text color green*/
+
+.twitter-timeline {
+width:27.5%;
+max-height: 100px;
+}
+
+
+
+
