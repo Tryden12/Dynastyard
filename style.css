@@ -9,6 +9,7 @@ body {
 }
 
 #nav {
+  height: 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -37,15 +38,21 @@ body {
 
 /*#73EB40 for text color green*/
 
-.twitter-timeline {
-width:27.5%;
-max-height: 100px;
+.twitter {
+height: 350px;
+width: 100%;
 position: fixed;
 left: 0;
 right: 0;
 top: 0;
 bottom: 0;
-margin: auto;
+margin: auto;  
+}
+
+.twitter-timeline {
+width:100%;
+max-height: 300px;
+
 }
 
 
