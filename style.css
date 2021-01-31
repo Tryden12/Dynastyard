@@ -1,57 +1,70 @@
 * {
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
 }
 
 body {
-  background-color: #323A4B;
+  background-color: whitesmoke;
 }
 
 #nav {
-  height: 20px;
-  display: flex;
-  justify-content: space-around;
+  height: 25px;
+  width: 100%;
+  display: inline-block;
   align-items: center;
   min-height: 8vh;
   background-color: #323A4B;
   font-family: 'Play', sans-serif;
+   
 }
 
 .nav-links {
-  display: flex;
-  justify-content: space-around;
-  width: 50%;
+  height: 10px;
+  width: 100%;
 }
 
 .nav-links a {
-  color: whitesmoke; 
+  color: whitesmoke;
   text-decoration: none;
-  letter-spacing: 3px;
-  font-size: 14px;
+  padding: 10px;
 }
 
 .nav-links li {
+  float: left;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 14px;
   list-style: none;
+  letter-spacing: 2px;
+
 }
 
+.logo img{
+  padding: 5px;
+  float: left;
+  margin-right: 200px;
+  max-width: 200px;
+  max-height: 100px;
+}
+
+
+.header {
+  overflow: auto;
+}
 
 /*#73EB40 for text color green*/
 
 .twitter {
-height: 350px;
 width: 100%;
-position: fixed;
-left: 0;
-right: 0;
-top: 0;
-bottom: 0;
-margin: auto;  
+position: center;
+padding: 0px;
+margin: 0px;  
 }
 
 .twitter-timeline {
 width:100%;
-max-height: 300px;
+max-height: 250px;
 
 }
 
