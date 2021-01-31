@@ -57,19 +57,74 @@ body {
 
 /*#73EB40 for text color green*/
 
+
 #twitter {
-height: 100px;
-width: 100%;
+height: 200px;
+width: 75%;
+padding: 10px;
+margin: auto; 
 display: flex;
 justify-content: center;
-padding: 0px;
-margin: 0px; 
+align-items: center;
 background-color: whitesmoke;
-border: none;
 }
 
 
 
+.content1 {
+  height: 800px;
+  width: 75%;
+  padding: 10px;
+  margin: auto; 
+  background-color: whitesmoke;
+}
 
+
+
+.articles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 35%;
+  float: right;
+  border: 3px solid darkslategrey;
+}
+
+.main-articles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 60%;
+  float: left;
+  border: 3px solid darkslategrey; 
+}
+
+footer {
+  height: 200px;
+  width: 100%;
+  background-color: #323A4B;
+  color: whitesmoke;
+  text-align: center;
+  padding: 70px 0;
+  margin: 0px 0px;
+}
+
+
+
+/* BELOW IS FOR THE SUPPORTING PAGES (TVC, TC, SHOP, ABOUT)*/
+ 
+
+#main-content {
+height: 1000px;
+width: 75%;
+padding: 10px;
+margin: auto; 
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:whitesmoke;
+}
 
 
